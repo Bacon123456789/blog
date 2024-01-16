@@ -1,0 +1,9 @@
+body{
+    font-family: 'Noto Color Emoji', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+li {
+    margin: 1rem;
+    font-size: 1.24rem;
+}
