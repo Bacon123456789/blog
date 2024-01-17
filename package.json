@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://bacon123456789.github.io/blog/",
+  "homepage": "https://bacon123456789.github.io/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "app.js",
-    "dev":"nodemon app.js"
+    "deploy": "gh-pages -d build",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
     "mongoose": "^8.0.4"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "nodemon": "^3.0.2"
   }
 }
